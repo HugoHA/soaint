@@ -1,0 +1,148 @@
+[INFO ] 2020-11-20 22:06:35.986 [background-preinit] Version - HV000001: Hibernate Validator 6.1.6.Final
+[INFO ] 2020-11-20 22:06:36.010 [restartedMain] ProjectSoaintApplication - Starting ProjectSoaintApplication using Java 1.8.0_221 on DESKTOP-QTT5V47 with PID 12408 (C:\Users\Usuario\Documents\workspace-spring-tool-suite-4-4.5.0.RELEASE\projectSoaint\target\classes started by Usuario in C:\Users\Usuario\Documents\workspace-spring-tool-suite-4-4.5.0.RELEASE\projectSoaint)
+[INFO ] 2020-11-20 22:06:36.013 [restartedMain] ProjectSoaintApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-20 22:06:36.049 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-20 22:06:36.053 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-20 22:06:36.829 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-20 22:06:36.888 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-11-20 22:06:37.470 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-20 22:06:37.477 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-20 22:06:37.477 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-20 22:06:37.478 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO ] 2020-11-20 22:06:37.559 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-20 22:06:37.559 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1505 ms
+[INFO ] 2020-11-20 22:06:37.705 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-20 22:06:37.713 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-20 22:06:37.834 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-20 22:06:37.873 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-20 22:06:37.910 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+[INFO ] 2020-11-20 22:06:38.040 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2020-11-20 22:06:38.117 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-20 22:06:38.143 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2020-11-20 22:06:38.424 [restartedMain] DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e233247, org.springframework.security.web.context.SecurityContextPersistenceFilter@4dbef7b, org.springframework.security.web.header.HeaderWriterFilter@2d06ad6a, org.springframework.security.web.authentication.logout.LogoutFilter@358a5744, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@7442c910, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@44c2cd15, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69b9d68d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60330f95, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45bb482a, org.springframework.security.web.session.SessionManagementFilter@5a2ce070, org.springframework.security.web.access.ExceptionTranslationFilter@5497b695, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3995376a]
+[INFO ] 2020-11-20 22:06:38.450 [restartedMain] PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2020-11-20 22:06:38.591 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-20 22:06:38.711 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-20 22:06:38.720 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-20 22:06:38.722 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-20 22:06:38.736 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-20 22:06:38.737 [restartedMain] DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2020-11-20 22:06:38.752 [restartedMain] DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2020-11-20 22:06:38.782 [restartedMain] ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2020-11-20 22:06:38.884 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-20 22:06:39.252 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-20 22:06:39.258 [restartedMain] ProjectSoaintApplication - Started ProjectSoaintApplication in 3.626 seconds (JVM running for 4.985)
+[INFO ] 2020-11-20 22:06:59.273 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-20 22:06:59.273 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-20 22:06:59.274 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2020-11-20 22:17:03.324 [RMI TCP Connection(2)-127.0.0.1] SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2020-11-20 22:17:03.862 [RMI TCP Connection(2)-127.0.0.1] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-20 22:17:03.864 [RMI TCP Connection(2)-127.0.0.1] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-20 22:17:03.867 [RMI TCP Connection(2)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-20 22:17:03.878 [RMI TCP Connection(2)-127.0.0.1] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-20 22:17:08.580 [background-preinit] Version - HV000001: Hibernate Validator 6.1.6.Final
+[INFO ] 2020-11-20 22:17:08.604 [restartedMain] ProjectSoaintApplication - Starting ProjectSoaintApplication using Java 1.8.0_221 on DESKTOP-QTT5V47 with PID 30680 (C:\Users\Usuario\Documents\workspace-spring-tool-suite-4-4.5.0.RELEASE\projectSoaint\target\classes started by Usuario in C:\Users\Usuario\Documents\workspace-spring-tool-suite-4-4.5.0.RELEASE\projectSoaint)
+[INFO ] 2020-11-20 22:17:08.607 [restartedMain] ProjectSoaintApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-20 22:17:08.642 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-11-20 22:17:08.642 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-11-20 22:17:09.411 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-20 22:17:09.464 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-11-20 22:17:10.156 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-20 22:17:10.163 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-20 22:17:10.163 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-20 22:17:10.164 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO ] 2020-11-20 22:17:10.248 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-20 22:17:10.248 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1605 ms
+[INFO ] 2020-11-20 22:17:10.452 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-20 22:17:10.464 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-11-20 22:17:10.600 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-11-20 22:17:10.644 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-20 22:17:10.691 [task-1] Version - HHH000412: Hibernate ORM core version 5.4.23.Final
+[INFO ] 2020-11-20 22:17:10.856 [task-1] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[WARN ] 2020-11-20 22:17:10.940 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-20 22:17:11.040 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2020-11-20 22:17:11.368 [restartedMain] DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37123041, org.springframework.security.web.context.SecurityContextPersistenceFilter@56316ad6, org.springframework.security.web.header.HeaderWriterFilter@304524a2, org.springframework.security.web.authentication.logout.LogoutFilter@479a6946, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@266579fb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@520f93d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b459982, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29d8786c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78e0aebf, org.springframework.security.web.session.SessionManagementFilter@297b98a5, org.springframework.security.web.access.ExceptionTranslationFilter@335dc5ae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f4baf9c]
+[INFO ] 2020-11-20 22:17:11.400 [restartedMain] PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2020-11-20 22:17:11.534 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-20 22:17:11.671 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-20 22:17:11.686 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-20 22:17:11.689 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-20 22:17:11.690 [restartedMain] DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2020-11-20 22:17:11.695 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-20 22:17:11.708 [restartedMain] DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2020-11-20 22:17:11.740 [restartedMain] ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2020-11-20 22:17:11.845 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-20 22:17:12.318 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-20 22:17:12.325 [restartedMain] ProjectSoaintApplication - Started ProjectSoaintApplication in 4.114 seconds (JVM running for 5.462)
+[INFO ] 2020-11-20 22:17:15.104 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-11-20 22:17:15.104 [http-nio-8080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-11-20 22:17:15.106 [http-nio-8080-exec-1] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2020-11-20 22:30:59.199 [Thread-5] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-20 22:30:59.200 [Thread-5] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-20 22:30:59.202 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-11-20 22:30:59.209 [Thread-5] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-11-20 22:30:59.438 [restartedMain] ProjectSoaintApplication - Starting ProjectSoaintApplication using Java 1.8.0_221 on DESKTOP-QTT5V47 with PID 30680 (C:\Users\Usuario\Documents\workspace-spring-tool-suite-4-4.5.0.RELEASE\projectSoaint\target\classes started by Usuario in C:\Users\Usuario\Documents\workspace-spring-tool-suite-4-4.5.0.RELEASE\projectSoaint)
+[INFO ] 2020-11-20 22:30:59.439 [restartedMain] ProjectSoaintApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-20 22:30:59.776 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-20 22:30:59.792 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-11-20 22:30:59.932 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-20 22:30:59.932 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-20 22:30:59.932 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-20 22:30:59.932 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO ] 2020-11-20 22:30:59.947 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-20 22:30:59.947 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 506 ms
+[INFO ] 2020-11-20 22:30:59.979 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-20 22:30:59.980 [restartedMain] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2020-11-20 22:30:59.986 [restartedMain] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2020-11-20 22:30:59.992 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-20 22:30:59.997 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2020-11-20 22:31:00.065 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-20 22:31:00.065 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2020-11-20 22:31:00.083 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-20 22:31:00.162 [restartedMain] DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3be3340d, org.springframework.security.web.context.SecurityContextPersistenceFilter@308adb6a, org.springframework.security.web.header.HeaderWriterFilter@1b39f027, org.springframework.security.web.authentication.logout.LogoutFilter@62dc6e16, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@2cf15ebc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@25d64a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49564451, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1dba2d94, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b204a8b, org.springframework.security.web.session.SessionManagementFilter@799c1a9b, org.springframework.security.web.access.ExceptionTranslationFilter@51451c06, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@247fca2a]
+[INFO ] 2020-11-20 22:31:00.167 [restartedMain] PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2020-11-20 22:31:00.201 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-20 22:31:00.247 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-20 22:31:00.250 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-20 22:31:00.250 [restartedMain] DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2020-11-20 22:31:00.251 [restartedMain] DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2020-11-20 22:31:00.259 [restartedMain] ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2020-11-20 22:31:00.275 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-20 22:31:00.318 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-20 22:31:00.321 [restartedMain] ProjectSoaintApplication - Started ProjectSoaintApplication in 0.919 seconds (JVM running for 833.459)
+[INFO ] 2020-11-20 22:31:00.324 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-11-20 22:31:01.645 [RMI TCP Connection(2)-127.0.0.1] SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2020-11-20 22:31:02.186 [RMI TCP Connection(2)-127.0.0.1] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-11-20 22:31:02.188 [RMI TCP Connection(2)-127.0.0.1] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-20 22:31:02.188 [RMI TCP Connection(2)-127.0.0.1] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2020-11-20 22:31:02.208 [RMI TCP Connection(2)-127.0.0.1] HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2020-11-20 22:31:02.398 [restartedMain] ProjectSoaintApplication - Starting ProjectSoaintApplication using Java 1.8.0_221 on DESKTOP-QTT5V47 with PID 30680 (C:\Users\Usuario\Documents\workspace-spring-tool-suite-4-4.5.0.RELEASE\projectSoaint\target\classes started by Usuario in C:\Users\Usuario\Documents\workspace-spring-tool-suite-4-4.5.0.RELEASE\projectSoaint)
+[INFO ] 2020-11-20 22:31:02.399 [restartedMain] ProjectSoaintApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-11-20 22:31:02.658 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[INFO ] 2020-11-20 22:31:02.674 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+[INFO ] 2020-11-20 22:31:02.759 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-11-20 22:31:02.759 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-20 22:31:02.759 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-11-20 22:31:02.760 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO ] 2020-11-20 22:31:02.775 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-11-20 22:31:02.775 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 374 ms
+[INFO ] 2020-11-20 22:31:02.803 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-11-20 22:31:02.804 [restartedMain] HikariDataSource - HikariPool-3 - Starting...
+[INFO ] 2020-11-20 22:31:02.809 [restartedMain] HikariDataSource - HikariPool-3 - Start completed.
+[INFO ] 2020-11-20 22:31:02.815 [task-1] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-11-20 22:31:02.819 [task-1] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ] 2020-11-20 22:31:02.866 [task-1] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-11-20 22:31:02.866 [task-1] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2020-11-20 22:31:02.876 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-11-20 22:31:02.931 [restartedMain] DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cb5ddc9, org.springframework.security.web.context.SecurityContextPersistenceFilter@272783bd, org.springframework.security.web.header.HeaderWriterFilter@54892c6a, org.springframework.security.web.authentication.logout.LogoutFilter@5ae54438, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@5d7b9231, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@322cdef1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6477b3af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79003937, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22fbc969, org.springframework.security.web.session.SessionManagementFilter@1b447716, org.springframework.security.web.access.ExceptionTranslationFilter@2aed3fc1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@33c728a2]
+[INFO ] 2020-11-20 22:31:02.936 [restartedMain] PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2020-11-20 22:31:02.968 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-11-20 22:31:03.007 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-11-20 22:31:03.010 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-11-20 22:31:03.010 [restartedMain] DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2020-11-20 22:31:03.011 [restartedMain] DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2020-11-20 22:31:03.017 [restartedMain] ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2020-11-20 22:31:03.030 [restartedMain] DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+[INFO ] 2020-11-20 22:31:03.072 [restartedMain] DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+[INFO ] 2020-11-20 22:31:03.075 [restartedMain] ProjectSoaintApplication - Started ProjectSoaintApplication in 0.706 seconds (JVM running for 836.213)
+[INFO ] 2020-11-20 22:31:03.077 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
